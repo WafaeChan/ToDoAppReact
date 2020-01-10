@@ -1,0 +1,120 @@
+
+.blueheader {
+    width : 70%;
+    min-height: 400px;
+    min-height: 450px;
+    background-color: #4696E5;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.butinput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+.pg1 {
+    font-weight: 800;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.pg2 {
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.inputcase {
+    width: 90%;
+    height: 60px;
+    border-radius: 15px;
+    border: solid 3px rgb(238, 239, 245, 0.568);
+    font-size: 26px;
+    color:  #4696E5;
+    padding-left: 20px;
+}
+
+
+.addbutton {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 3px rgb(238, 239, 245, 0.568);
+    background-color: #4696E5;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.addbutton:hover {
+    background-color: rgb(252, 252, 252);
+    color: #4696E5;
+}
+
+.headerbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+
+.middlepg {
+    color: rgb(116, 116, 116);
+    font-size: 28px;
+    text-align: center;
+    margin: 70px 0px;
+}
+
+hr {
+    width: 5%;
+    color: rgb(192, 191, 191)
+}
+
+::placeholder {
+    color: rgba(104, 104, 104, 0.301);
+}
+
+
+button {
+    max-width: 250px;
+    max-height: 80px;
+    min-width: 250px;
+    min-height: 80px;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 90px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.completebutton {
+    margin: 0px 40px;
+}
+
+.targettext {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(129, 127, 127);
+    margin-top: -2px;
+    margin-left: 100px;
+}
+
+.completeTask {
+    text-decoration: line-through;
+}
